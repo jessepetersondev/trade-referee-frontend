@@ -1,0 +1,100 @@
+{
+  "id": "demo-league-2024",
+  "name": "Championship Fantasy League",
+  "teams": [
+    {
+      "id": "team1",
+      "name": "Thunder Bolts",
+      "owner": "Alex Johnson",
+      "roster": [
+        {
+          "id": "player1",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
+          "byeWeek": 12,
+          "projectedPoints": 24.8,
+          "isInjured": false
+        },
+        {
+          "id": "player2",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "byeWeek": 9,
+          "projectedPoints": 22.3,
+          "isInjured": false
+        },
+        {
+          "id": "player3",
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "team": "MIA",
+          "byeWeek": 6,
+          "projectedPoints": 18.9,
+          "isInjured": false
+        },
+        {
+          "id": "player4",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
+          "byeWeek": 10,
+          "projectedPoints": 14.2,
+          "isInjured": false
+        }
+      ]
+    },
+    {
+      "id": "team2",
+      "name": "Gridiron Warriors",
+      "owner": "Sarah Chen",
+      "roster": [
+        {
+          "id": "player5",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
+          "byeWeek": 14,
+          "projectedPoints": 23.1,
+          "isInjured": false
+        },
+        {
+          "id": "player6",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "team": "BAL",
+          "byeWeek": 14,
+          "projectedPoints": 16.7,
+          "isInjured": false
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "passingYards": 0.04,
+    "passingTouchdowns": 4,
+    "interceptions": -2,
+    "rushingYards": 0.1,
+    "rushingTouchdowns": 6,
+    "receivingYards": 0.1,
+    "receivingTouchdowns": 6,
+    "receptions": 0.5,
+    "fumbles": -2
+  },
+  "settings": {
+    "rosterPositions": [
+      {"position": "QB", "count": 1, "isRequired": true},
+      {"position": "RB", "count": 2, "isRequired": true},
+      {"position": "WR", "count": 2, "isRequired": true},
+      {"position": "TE", "count": 1, "isRequired": true},
+      {"position": "FLEX", "count": 1, "isRequired": true},
+      {"position": "K", "count": 1, "isRequired": true},
+      {"position": "DEF", "count": 1, "isRequired": true}
+    ],
+    "playoffTeams": 4,
+    "regularSeasonWeeks": 14,
+    "currentWeek": 5
+  }
+}
+
